@@ -1,0 +1,23 @@
+# Build an app that outputs the grade for a student EG 100% === A Star B === 90% C==80%
+
+# Item need are Function, varible, return if-statment for flow control.
+# steven Garner veresion 0.01
+# 12/6/2020
+
+def checkgrade(grade_score):
+    if grade_score == 100:
+        print("Your score is" + " A")
+
+    elif grade_score >= 96:
+        print("A Star grade student")
+
+    elif grade_score >= 90 or 95 <= grade_score:
+        print("Your score is" + " A")
+
+    elif (grade_score >= 80):
+        print("Your score is" + " C")
+
+    elif (grade_score >= 70):
+        print("Your score is" + " D")
+    else:
+        print("Number Grade is to low")
