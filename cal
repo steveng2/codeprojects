@@ -11,7 +11,7 @@ def checkgrade(grade_score):
     elif grade_score >= 96:
         print("A Star grade student")
 
-    elif grade_score >= 900 or 95 <= grade_score:
+    elif grade_score >= 90 or 95 <= grade_score:
         print("Your score is" + " A")
 
     elif (grade_score >= 80):
